@@ -18,6 +18,10 @@ This repository includes a `data` folder with the following files:
 
 To use these files, download the repository and navigate to the `data` folder. You can view and analyze the `.pdf` file with any PDF reader, and you can work with the `.csv` file using spreadsheet software or data analysis tools like pandas in Python.
 
+## How to run?
+
+python main.py
+
 ## License
 
 This repository is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for more details.
