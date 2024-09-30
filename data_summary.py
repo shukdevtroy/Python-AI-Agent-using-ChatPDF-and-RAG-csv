@@ -19,7 +19,7 @@ def save_data_summary(df):
     
     return "data summary saved"
 
-population_path = os.path.join("data", "population.csv")
+population_path = os.path.join("data", "Population.csv")
 
 population_df = pd.read_csv(population_path)
 
