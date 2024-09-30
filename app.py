@@ -104,7 +104,7 @@ if option == "Ask a Question":
 elif option == "View Previous Conversations":
     if os.path.exists(conversation_file):
         try:
-            with open(conversation_file, "r", encoding="utf-8-sig") as file:
+            with open(conversation_file, "r", encoding="latin1") as file:
                 st.text_area("Previous Conversations", file.read(), height=300)
         except Exception as e:
             st.error(f"Error reading the conversation file: {e}")
@@ -114,7 +114,7 @@ elif option == "View Previous Conversations":
 # View data summary
 elif option == "View Data Summary":
     if os.path.exists(summary_file):
-        with open(summary_file, "r", encoding="utf-8-sig") as file:
+        with open(summary_file, "r", encoding="latin1") as file:
             st.text_area("Data Summary", file.read(), height=300)
     else:
         st.warning("No data summary found.")
