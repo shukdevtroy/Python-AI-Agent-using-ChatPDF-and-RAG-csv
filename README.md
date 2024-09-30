@@ -99,7 +99,12 @@ Replace `app.py` with the name of your main Python file if it differs.
 This repository is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
-For any issues or feedback, please open an issue in the GitHub repository or contact the developer.
+
+For any questions or issues, please contact:
+
+- **Email**: shukdevdatta@gmail.com
+- **GitHub**: [Click to here to access the Github Profile](https://github.com/shukdevtroy)
+- **WhatsApp**: [Click here to chat](https://wa.me/+8801719296601)
 
 ---
 
