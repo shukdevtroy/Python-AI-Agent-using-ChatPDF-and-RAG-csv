@@ -1,0 +1,135 @@
+Timestamp: 2024-08-21 14:02:58
+Prompt: What is the capital of Bhutan?
+Response: The capital of Bhutan is Thimphu.
+========================================
+Timestamp: 2024-08-21 14:04:03
+Prompt: what is the capital of Egypt?
+Response: Cairo
+========================================
+Timestamp: 2024-08-21 14:08:52
+Prompt: what is the capital of Italy?
+Response: Rome
+========================================
+Timestamp: 2024-08-21 14:12:06
+Prompt: what is the capital of Portugal?
+Response: Lisbon
+========================================
+Timestamp: 2024-08-21 14:34:53
+Prompt: tell me the religions that are found in Bangladesh
+Response: Islam is the largest religion in Bangladesh, followed by Hinduism, Buddhism, Christianity, and other religions.
+========================================
+Timestamp: 2024-08-21 14:43:35
+Prompt: what is the capital of Turkey?
+Response: Ankara
+========================================
+Timestamp: 2024-08-21 14:45:48
+Prompt: what is the capital of Argentina?
+Response: The capital of Argentina is Buenos Aires.
+========================================
+Timestamp: 2024-08-21 14:58:43
+Prompt: what is the capital of Brazil?
+Response: Brasï¿½lia
+========================================
+Timestamp: 2024-08-26 23:16:31
+Prompt: what is the capital of mongolia?
+Response: The capital of Mongolia is Ulaanbaatar.
+========================================
+Timestamp: 2024-08-26 23:42:35
+Prompt: what is the capital of Uganda?
+Response: The capital of Uganda is Kampala.
+========================================
+Timestamp: 2024-08-26 23:47:30
+Prompt: what is the capital of Brazil?
+Response: Brasília
+========================================
+Timestamp: 2024-08-27 22:53:24
+Prompt: save a note "hey hey hey"
+Response: I will save the note "hey hey hey" for you.
+========================================
+Timestamp: 2024-08-28 20:05:33
+Prompt: what is the capital of Denmark?
+Response: Copenhagen
+========================================
+Timestamp: 2024-08-28 20:08:01
+Prompt: name the religions that can be found in Bangladesh?
+Response: Islam is the largest religion in Bangladesh, followed by Hinduism, Buddhism, Christianity, and other religions.
+========================================
+Timestamp: 2024-08-28 21:25:58
+Prompt: what is the capital of Bulgaria?
+Response: The capital of Bulgaria is Sofia.
+========================================
+Timestamp: 2024-08-28 21:29:32
+Prompt: what are the religions that can be found in Bangladesh?
+Response: Islam is the largest religion in Bangladesh, followed by Hinduism, Buddhism, Christianity, and other religions.
+========================================
+Timestamp: 2024-09-30 00:23:34
+Prompt: what is the capital of nigeria
+Response: Abuja
+========================================
+Timestamp: 2024-09-30 00:26:17 (Note)
+Note: hey how are you
+========================================
+Timestamp: 2024-09-30 00:26:40
+Prompt: what is the capital of uganda
+Response: The capital of Uganda is Kampala.
+========================================
+Timestamp: 2024-09-30 00:29:02
+Prompt: what is capital of somalia
+Response: The capital of Somalia is Mogadishu.
+========================================
+Timestamp: 2024-09-30 00:29:39
+Prompt: what is the capital of ghana
+Response: The capital of Ghana is Accra.
+========================================
+Timestamp: 2024-09-30 00:29:56
+Prompt: what is the capital of australia
+Response: The capital of Australia is Canberra.
+========================================
+Timestamp: 2024-09-30 00:45:48
+Prompt: what is the capital of Denmark
+Response: Copenhagen
+========================================
+Timestamp: 2024-09-30 00:45:48
+Prompt: what is the capital of Denmark
+Response: Copenhagen
+========================================
+Timestamp: 2024-09-30 00:46:22
+Prompt: what is the capital of Uganda
+Response: Kampala
+========================================
+Timestamp: 2024-09-30 00:46:35
+Prompt: what is the capital of Portugal
+Response: Lisbon
+========================================
+Timestamp: 2024-09-30 00:49:22
+Prompt: what is the capital of afghanistan
+Response: Kabul
+========================================
+Timestamp: 2024-09-30 00:49:22
+Prompt: what is the capital of afghanistan
+Response: Kabul
+========================================
+Timestamp: 2024-09-30 00:49:37
+Prompt: what is the capital of china
+Response: The capital of China is Beijing.
+========================================
+Timestamp: 2024-09-30 00:49:47
+Prompt: what is the capital of taiwan
+Response: The capital of Taiwan is Taipei.
+========================================
+Timestamp: 2024-09-30 01:04:41
+Prompt: what is the capital of dhaka
+Response: Dhaka is the capital of Bangladesh.
+========================================
+Timestamp: 2024-09-30 01:04:41
+Prompt: what is the capital of dhaka
+Response: Dhaka is the capital of Bangladesh.
+========================================
+Timestamp: 2024-09-30 01:05:11
+Prompt: what is india capital
+Response: New Delhi
+========================================
+Timestamp: 2024-09-30 01:05:23
+Prompt: what is pakistan capital
+Response: Islamabad
+========================================
