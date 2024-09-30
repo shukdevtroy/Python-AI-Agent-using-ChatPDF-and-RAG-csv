@@ -17,7 +17,7 @@ load_dotenv()
 # File paths
 conversation_file = os.path.join("data", "conversation.txt")
 summary_file = os.path.join("data", "data_summary.txt")
-population_path = os.path.join("data", "population.csv")
+population_path = os.path.join("data", "Population.csv")
 population_df = pd.read_csv(population_path)
 
 # Set up the Streamlit app
