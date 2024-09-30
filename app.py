@@ -8,7 +8,6 @@ from llama_index.core.tools import QueryEngineTool, ToolMetadata
 from llama_index.core.agent import ReActAgent
 from llama_index.llms.openai import OpenAI
 from data_summary import data_summary_tool
-from pdf import bangladesh_engine
 from dotenv import load_dotenv
 
 # Load environment variables
@@ -24,9 +23,15 @@ population_df = pd.read_csv(population_path)
 st.title("🌎 Population and Bangladesh Data Assistant")
 
 # Sidebar for OpenAI API key
-api_key = st.sidebar.text_input("Enter your OpenAI API Key", type="password")
+api_key = st.sidebar.text_input("Enter your OpenAI API Key", type="password", placeholder="sk-...")
 if api_key:
     os.environ["OPENAI_API_KEY"] = api_key
+
+# Import bangladesh_engine and handle import error
+try:
+    from pdf import bangladesh_engine
+except ImportError as e:
+    st.error(f"Import error: {e}. Please ensure 'pdf.py' is in the correct directory and has 'bangladesh_engine' defined.")
 
 # Initialize query engines
 population_query_engine = PandasQueryEngine(
