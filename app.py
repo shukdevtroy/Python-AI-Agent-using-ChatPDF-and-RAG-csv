@@ -8,10 +8,10 @@ from llama_index.core.tools import QueryEngineTool, ToolMetadata
 from llama_index.core.agent import ReActAgent
 from llama_index.llms.openai import OpenAI
 from data_summary import data_summary_tool
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+# load_dotenv()
 
 # File paths
 conversation_file = os.path.join("data", "conversation.txt")
