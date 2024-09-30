@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 conversation_file = os.path.join("data", "conversation.txt")
-population_path = os.path.join("data", "population.csv")
+population_path = os.path.join("data", "Population.csv")
 population_df = pd.read_csv(population_path)
 
 population_query_engine = PandasQueryEngine(
