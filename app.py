@@ -7,7 +7,6 @@ from note_engine import note_engine
 from llama_index.core.tools import QueryEngineTool, ToolMetadata
 from llama_index.core.agent import ReActAgent
 from llama_index.llms.openai import OpenAI
-from data_summary import data_summary_tool
 
 # File paths
 conversation_file = os.path.join("data", "conversation.txt")
@@ -89,7 +88,7 @@ if option == "Ask a Question":
     
     if st.button("Save this Conversation"):
         # Save entire conversation history to the file
-        with open(conversation_file, "a") as file:
+        with open(conversation_file, "a", encoding="utf-8") as file:
             for timestamp, user_prompt, bot_response in st.session_state.conversation_history:
                 file.write(f"Timestamp: {timestamp}\n")
                 file.write(f"Prompt: {user_prompt}\n")
@@ -104,15 +103,18 @@ if option == "Ask a Question":
 # View previous conversations
 elif option == "View Previous Conversations":
     if os.path.exists(conversation_file):
-        with open(conversation_file, "r") as file:
-            st.text_area("Previous Conversations", file.read(), height=300)
+        try:
+            with open(conversation_file, "r", encoding="utf-8-sig") as file:
+                st.text_area("Previous Conversations", file.read(), height=300)
+        except Exception as e:
+            st.error(f"Error reading the conversation file: {e}")
     else:
         st.warning("No previous conversations found.")
 
 # View data summary
 elif option == "View Data Summary":
     if os.path.exists(summary_file):
-        with open(summary_file, "r") as file:
+        with open(summary_file, "r", encoding="utf-8-sig") as file:
             st.text_area("Data Summary", file.read(), height=300)
     else:
         st.warning("No data summary found.")
@@ -124,7 +126,7 @@ elif option == "Save a Note":
         if note:
             # Append note to the conversation file with a timestamp
             timestamp = pd.Timestamp.now().strftime("%Y-%m-%d %H:%M:%S")
-            with open(conversation_file, "a") as file:
+            with open(conversation_file, "a", encoding="utf-8") as file:
                 file.write(f"Timestamp: {timestamp} (Note)\n")
                 file.write(f"Note: {note}\n")
                 file.write("=" * 40 + "\n")  # Separator for readability
